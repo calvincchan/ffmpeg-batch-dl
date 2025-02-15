@@ -27,7 +27,7 @@ list_file="$1"
 names=()
 urls=()
 
-base_dir="downloads"
+base_dir="${2:-downloads}"
 
 # Create the base directory if it doesn't exist
 mkdir -p "$base_dir"
